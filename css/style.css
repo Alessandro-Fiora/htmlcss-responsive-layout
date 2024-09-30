@@ -219,6 +219,14 @@ body {
 /* MEDIA QUERY */
 
 @media screen and (min-width: 576px) {
+  .img-container {
+    float: left;
+    margin: 1rem;
+  }
+
+  .social-media-section .social-media-icon {
+    padding: 10px 35px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -302,7 +310,7 @@ body {
   }
 
   .social-media-section .social-media-icon {
-    padding: 10px 25px;
+    padding: 10px 35px;
   }
 
   .page-footer {
