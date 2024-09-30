@@ -20,12 +20,17 @@ a {
   color: inherit;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(40deg 14.29% 95.88%);
+}
+
 /* UTILS */
 
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+  width: 95%;
   max-width: 100%;
 }
 
@@ -55,15 +60,49 @@ a {
 
 /* HEADER */
 
+.page-header {
+  font-family: "Nerko One", cursive;
+  color: hsl(33.45deg 99.16% 53.53%);
+  text-shadow: 1px 1px 2px #222;
+  text-align: center;
+
+  background-color: white;
+
+  padding: 0.5rem;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+}
+
 /* MAIN */
 
 /* VIDEO SECTION */
 
+.video-section .category {
+  font-weight: 400;
+  color: #a1a1a1;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.video-section .recipe-title {
+  color: hsl(266.25deg 29.63% 31.76%);
+  margin-bottom: 1rem;
+}
+
 /* CARD */
+
+.card {
+  background-color: white;
+}
 
 .video {
   width: 100%;
   aspect-ratio: 1.75;
+}
+
+.recipe-summary-container {
+  padding: 2rem;
 }
 
 /* SOCIAL MEDIA SECTION */
