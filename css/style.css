@@ -72,3 +72,19 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+/* PRESENTATION SECTION */
+
+/* FOOTER */
+
+.page-footer {
+  text-align: center;
+
+  color: white;
+}
+
+.page-footer .link-item {
+  display: inline-block;
+
+  text-decoration: underline;
+}
