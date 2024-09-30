@@ -94,6 +94,7 @@ body {
 
 .card {
   background-color: white;
+  box-shadow: 0px 0px 10px 2px #ddd;
 }
 
 .video {
@@ -105,21 +106,100 @@ body {
   padding: 2rem;
 }
 
+.recipe-summary-container h4 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.video-section .summary-item {
+  margin-bottom: 1rem;
+}
+
 /* SOCIAL MEDIA SECTION */
 
 .social-media-section .container {
   justify-content: space-between;
   align-items: center;
+  padding: 3rem 1rem;
+}
+
+.social-media-section .social-media-icon {
+  box-shadow: 0px 0px 10px 2px #ddd;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.fa-facebook {
+  color: hsl(214.01deg 90.04% 52.75%);
+}
+.fa-twitter {
+  color: hsl(204.66deg 100% 53.73%);
+}
+.fa-instagram {
+  color: hsl(343.94deg 72.57% 65.69%);
+}
+.fa-pinterest {
+  color: hsl(0deg 79.67% 51.76%);
+}
+.fa-youtube {
+  color: hsl(0deg 79.67% 51.76%);
 }
 
 /* PRESENTATION SECTION */
+
+.presentation-section h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.presentation-section hr {
+  width: 5rem;
+  color: hsl(31.34deg 92.63% 57.45%);
+  margin: 1rem 0;
+  border: 1px solid currentColor;
+}
+
+.img-container {
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 2px #ddd;
+}
+
+.presentation-section p {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  padding: 1rem 0 3rem 0;
+}
 
 /* FOOTER */
 
 .page-footer {
   text-align: center;
+  padding: 2rem 0;
 
   color: white;
+  background-color: hsl(259.32deg 24.48% 52.75%);
+}
+
+.page-footer .company-name {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-footer .company-address {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.page-footer .link-container {
+  padding: 1rem 0;
+}
+
+.page-footer .link-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.8rem;
 }
 
 .page-footer .link-item {
