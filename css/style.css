@@ -145,6 +145,14 @@ body {
   color: hsl(0deg 79.67% 51.76%);
 }
 
+/* BANNER */
+
+.banner-section img {
+  width: 100%;
+
+  margin-bottom: 2rem;
+}
+
 /* PRESENTATION SECTION */
 
 .presentation-section h2 {
@@ -228,6 +236,26 @@ body {
     display: flex;
   }
   /* ---- * ---- */
+  .page-header {
+    text-align: left;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .video-section .recipe-title {
+    font-size: 2rem;
+  }
+
+  .social-media-section .social-media-icon {
+    padding: 10px 50px;
+  }
+
+  .img-container {
+    float: left;
+    margin: 1rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
