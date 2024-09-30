@@ -88,3 +88,45 @@ a {
 
   text-decoration: underline;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) {
+  /* ---- utils ---- */
+  .d-md-none {
+    display: none;
+  }
+  .d-md-block {
+    display: block;
+  }
+  .d-md-inline {
+    display: inline;
+  }
+  .d-md-inline-block {
+    display: inline-block;
+  }
+  .d-md-flex {
+    display: flex;
+  }
+  /* ---- * ---- */
+}
+
+@media screen and (min-width: 992px) {
+  /* utils */
+  .d-lg-none {
+    display: none;
+  }
+  .d-lg-block {
+    display: block;
+  }
+  .d-lg-inline {
+    display: inline;
+  }
+  .d-lg-inline-block {
+    display: inline-block;
+  }
+  .d-lg-flex {
+    display: flex;
+  }
+  /* ---- * ---- */
+}
