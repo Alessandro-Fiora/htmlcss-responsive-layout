@@ -218,6 +218,9 @@ body {
 
 /* MEDIA QUERY */
 
+@media screen and (min-width: 576px) {
+}
+
 @media screen and (min-width: 768px) {
   /* ---- utils ---- */
   .d-md-none {
@@ -248,6 +251,11 @@ body {
     font-size: 2rem;
   }
 
+  .video-section .card .summary-points {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
   .social-media-section .social-media-icon {
     padding: 10px 50px;
   }
@@ -276,4 +284,33 @@ body {
     display: flex;
   }
   /* ---- * ---- */
+
+  .container {
+    width: 75%;
+  }
+
+  .video-section .recipe-title {
+    font-size: 3rem;
+  }
+
+  .video-container {
+    flex-basis: 70%;
+  }
+
+  .recipe-summary-container {
+    flex-basis: 30%;
+  }
+
+  .social-media-section .social-media-icon {
+    padding: 10px 25px;
+  }
+
+  .page-footer {
+    text-align: left;
+    padding: 2rem;
+  }
+
+  .footer-container {
+    justify-content: space-between;
+  }
 }
