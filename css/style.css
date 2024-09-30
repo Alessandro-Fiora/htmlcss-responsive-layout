@@ -176,7 +176,7 @@ body {
 .presentation-section p {
   line-height: 2.5rem;
   font-size: 1.2rem;
-  padding: 1rem 0 3rem 0;
+  padding-bottom: 3rem;
 }
 
 /* FOOTER */
@@ -221,7 +221,7 @@ body {
 @media screen and (min-width: 576px) {
   .img-container {
     float: left;
-    margin: 1rem;
+    margin: 0 1rem 0 0;
   }
 
   .social-media-section .social-media-icon {
@@ -270,7 +270,7 @@ body {
 
   .img-container {
     float: left;
-    margin: 1rem;
+    width: 300px;
   }
 }
 
@@ -320,5 +320,6 @@ body {
 
   .footer-container {
     justify-content: space-between;
+    gap: 3rem;
   }
 }
