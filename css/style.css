@@ -29,10 +29,46 @@ a {
   max-width: 100%;
 }
 
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.d-inline {
+  display: inline;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-flex {
+  display: flex;
+}
+
 /* DEBUG */
 
 .debug * {
   background-color: brown;
   border: 1px dashed black;
   padding: 10px;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* VIDEO SECTION */
+
+/* CARD */
+
+.video {
+  width: 100%;
+  aspect-ratio: 1.75;
+}
+
+/* SOCIAL MEDIA SECTION */
+
+.social-media-section .container {
+  justify-content: space-between;
+  align-items: center;
 }
