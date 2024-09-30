@@ -28,3 +28,11 @@ a {
   width: 1000px;
   max-width: 100%;
 }
+
+/* DEBUG */
+
+.debug * {
+  background-color: brown;
+  border: 1px dashed black;
+  padding: 10px;
+}
